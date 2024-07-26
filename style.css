@@ -1,0 +1,112 @@
+.hero{
+     /* background-image: linear-gradient(to right, #0413DB 0%,#0457db 20%,#049BDB 50%,#04DBD8 100%); */
+     background-image: linear-gradient(45deg, #3C04DB 0%,#0457db 33%,#5086DE 66%,#049BDB 86%,#04DBD8 100%); 
+}
+  
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.lead{
+    text-align: end;
+}
+    
+
+.primebt{
+    background-color: #3C04DB;
+}
+.titletext{
+    color: #F0F0F0 !important;
+}
+.nav-link{
+    color: white;
+}
+
+.heropic{
+    border-radius: 10px;
+    border: 10px solid white
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    color: white;
+}
+
+.example{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: end;
+    
+}
+
+.specialsvg{
+    display: inline-flex;
+    padding-bottom: 30px;
+    
+}
+
+.example > svg{
+    color: cornflowerblue;
+}
+
+.widget{
+    position: relative;
+}
+
+.footer{
+    color: white;
+}
+.testamonials{
+    display: flex;
+    flex-direction: column;
+}
+.testamonials > h2{
+    color: black;
+    display: flex;
+    font-weight: 600;
+    text-decoration: underline;
+    align-self: center;
+}
+.herosvg{
+    position: absolute;
+    z-index: 1;
+}
+.barak{
+    left: 8%;
+    top: 15%;
+    
+}
+.twentyfour{
+    left: 38%;
+    top: 48%;
+}
+@media screen and (max-width: 1550px) {
+    .herosvg {
+      display: none;
+    }
+  }
+
+@media (max-width: 768px){
+    .nav-item{
+        display: none;
+    }
+    .header > .top-header{
+        justify-content: space-between;
+    }
+    
+}
+@media (max-width: 768px) {
+    #heropicture{
+        display: none !important;
+    }
+}
+@media (max-width: 990px) {
+    #herospan{
+        color: white !important;
+    }
+}
